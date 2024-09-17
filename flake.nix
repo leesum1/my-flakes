@@ -4,11 +4,10 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
     flake-utils.url = "github:numtide/flake-utils";
-
-    # 引用子 Flakes
-    sbt-overlay-flakes.url = "path:./sbt-overlay-flakes";
-    riscv-toolchain-flakes.url = "path:./riscv-toolchain-flakes";
-    sail-riscv.url = "path:./sail-riscv";
+    # 引用子 Flakes https://github.com/NixOS/nix/issues/3978
+    sbt-overlay-flakes.url = "git+file:./?dir=sbt-overlay-flakes";
+    riscv-toolchain-flakes.url = "git+file:./?dir=riscv-toolchain-flakes";
+    sail-riscv.url = "git+file:./?dir=sail-riscv";
   };
 
   outputs = { self, nixpkgs, flake-utils, sbt-overlay-flakes, riscv-toolchain-flakes,sail-riscv }:
