@@ -8,9 +8,10 @@
     # 引用子 Flakes
     sbt-overlay-flakes.url = "path:./sbt-overlay-flakes";
     riscv-toolchain-flakes.url = "path:./riscv-toolchain-flakes";
+    sail-riscv.url = "path:./sail-riscv";
   };
 
-  outputs = { self, nixpkgs, flake-utils, sbt-overlay-flakes, riscv-toolchain-flakes }:
+  outputs = { self, nixpkgs, flake-utils, sbt-overlay-flakes, riscv-toolchain-flakes,sail-riscv }:
     flake-utils.lib.eachDefaultSystem (system: {
       packages = {
         # 导出 sbt-overlay-flakes 的包
@@ -21,6 +22,8 @@
         riscv64-none-gdb = riscv-toolchain-flakes.packages.${system}.riscv64-none-gdb;
         riscv32-none-gcc = riscv-toolchain-flakes.packages.${system}.riscv32-none-gcc;
         riscv32-none-gdb = riscv-toolchain-flakes.packages.${system}.riscv32-none-gdb;
+        sail-riscv-rv32 = sail-riscv.packages.${system}.sail-riscv-rv32;
+        sail-riscv-rv64 = sail-riscv.packages.${system}.sail-riscv-rv64;
       };
     });
 }
