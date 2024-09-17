@@ -74,11 +74,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1726320982,
-        "narHash": "sha256-RuVXUwcYwaUeks6h3OLrEmg14z9aFXdWppTWPMTwdQw=",
+        "lastModified": 1726447378,
+        "narHash": "sha256-2yV8nmYE1p9lfmLHhOCbYwQC/W8WYfGQABoGzJOb1JQ=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "8f7492cce28977fbf8bd12c72af08b1f6c7c3e49",
+        "rev": "086b448a5d54fd117f4dc2dee55c9f0ff461bdc1",
         "type": "github"
       },
       "original": {
@@ -155,10 +155,10 @@
       },
       "locked": {
         "dir": "riscv-toolchain-flakes",
-        "dirtyRev": "c990373a1dc87c6e51fff57d32cb97983bdca7f7-dirty",
-        "dirtyShortRev": "c990373-dirty",
-        "lastModified": 1726579670,
-        "narHash": "sha256-VoqDtFL/cr1fgDzqr0lKHy5jqREc9NEa0U2rm1TibUU=",
+        "dirtyRev": "b22059ae1986941352225f7b0be35b4802d3c40d-dirty",
+        "dirtyShortRev": "b22059a-dirty",
+        "lastModified": 1726594705,
+        "narHash": "sha256-oz5lpLmXWlQYnM8oCxRhTHaSq/I7/3N480NmRLDv064=",
         "type": "git",
         "url": "file:./?dir=riscv-toolchain-flakes"
       },
@@ -184,10 +184,10 @@
       },
       "locked": {
         "dir": "sail-riscv",
-        "dirtyRev": "c990373a1dc87c6e51fff57d32cb97983bdca7f7-dirty",
-        "dirtyShortRev": "c990373-dirty",
-        "lastModified": 1726579670,
-        "narHash": "sha256-Eu8e0pSWjbYPTd2yhsiI6RWQsUqWy8zy9KLGICp1Ec4=",
+        "dirtyRev": "b22059ae1986941352225f7b0be35b4802d3c40d-dirty",
+        "dirtyShortRev": "b22059a-dirty",
+        "lastModified": 1726594705,
+        "narHash": "sha256-oz5lpLmXWlQYnM8oCxRhTHaSq/I7/3N480NmRLDv064=",
         "type": "git",
         "url": "file:./?dir=sail-riscv"
       },
@@ -205,10 +205,10 @@
       },
       "locked": {
         "dir": "sbt-overlay-flakes",
-        "dirtyRev": "c990373a1dc87c6e51fff57d32cb97983bdca7f7-dirty",
-        "dirtyShortRev": "c990373-dirty",
-        "lastModified": 1726579670,
-        "narHash": "sha256-VoqDtFL/cr1fgDzqr0lKHy5jqREc9NEa0U2rm1TibUU=",
+        "dirtyRev": "b22059ae1986941352225f7b0be35b4802d3c40d-dirty",
+        "dirtyShortRev": "b22059a-dirty",
+        "lastModified": 1726594705,
+        "narHash": "sha256-oz5lpLmXWlQYnM8oCxRhTHaSq/I7/3N480NmRLDv064=",
         "type": "git",
         "url": "file:./?dir=sbt-overlay-flakes"
       },
