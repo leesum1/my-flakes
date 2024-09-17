@@ -21,8 +21,11 @@
         packages = {
           # Flakes can export multiple packages. To include specific packages in
           # devbox.json you can use url fragments (e.g. path:my-flake#my-package)
-          riscv-gcc = pkgs.pkgsCross.riscv64-embedded.buildPackages.gcc;
-          riscv-gdb = pkgs.pkgsCross.riscv64-embedded.buildPackages.gdb;
+          riscv64-none-gcc = pkgs.pkgsCross.riscv64-embedded.buildPackages.gcc;
+          riscv64-none-gdb = pkgs.pkgsCross.riscv64-embedded.buildPackages.gdb;
+          riscv32-none-gcc = pkgs.pkgsCross.riscv32-embedded.buildPackages.gcc;
+          riscv32-none-gdb = pkgs.pkgsCross.riscv32-embedded.buildPackages.gdb;
+
           # If you only want to export a single package, you can name it default which allows
           # installation without using url fragment (.e.g. "path:my-flake")
           # default = pkgs.php.withExtensions ({ enabled, all }: enabled ++ (with all; [ ds memcached ]));

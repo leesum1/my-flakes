@@ -17,8 +17,10 @@
         sbt = sbt-overlay-flakes.packages.${system}.sbt;
 
         # 导出 riscv-toolchain-flakes 的包
-        riscv-gcc = riscv-toolchain-flakes.packages.${system}.riscv-gcc;
-        riscv-gdb = riscv-toolchain-flakes.packages.${system}.riscv-gdb;
+        riscv64-none-gcc = riscv-toolchain-flakes.packages.${system}.riscv64-none-gcc;
+        riscv64-none-gdb = riscv-toolchain-flakes.packages.${system}.riscv64-none-gdb;
+        riscv32-none-gcc = riscv-toolchain-flakes.packages.${system}.riscv32-none-gcc;
+        riscv32-none-gdb = riscv-toolchain-flakes.packages.${system}.riscv32-none-gdb;
       };
     });
 }
