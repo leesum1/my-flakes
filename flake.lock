@@ -154,19 +154,14 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "dir": "riscv-toolchain-flakes",
-        "lastModified": 1726595121,
-        "narHash": "sha256-AbCen2tFH8qhY+r41EGm6uCNdDiXWQS8KLWeLmjokqY=",
-        "ref": "refs/heads/master",
-        "rev": "ae5e98ec77fd3b82a91403bf98547f01286cd757",
-        "revCount": 8,
-        "type": "git",
-        "url": "file:./?dir=riscv-toolchain-flakes"
+        "lastModified": 1,
+        "narHash": "sha256-kGyQYpNkBM9J8XZJZ4g+uckgAOQxxX8ISyYsziuVpc8=",
+        "path": "riscv-toolchain-flakes",
+        "type": "path"
       },
       "original": {
-        "dir": "riscv-toolchain-flakes",
-        "type": "git",
-        "url": "file:./?dir=riscv-toolchain-flakes"
+        "path": "riscv-toolchain-flakes",
+        "type": "path"
       }
     },
     "root": {
@@ -184,19 +179,14 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "dir": "sail-riscv",
-        "lastModified": 1726595121,
-        "narHash": "sha256-AbCen2tFH8qhY+r41EGm6uCNdDiXWQS8KLWeLmjokqY=",
-        "ref": "refs/heads/master",
-        "rev": "ae5e98ec77fd3b82a91403bf98547f01286cd757",
-        "revCount": 8,
-        "type": "git",
-        "url": "file:./?dir=sail-riscv"
+        "lastModified": 1,
+        "narHash": "sha256-riY8aXesYTAFtCgcZV+173oM3uozzYpDKgBy7/2yoDI=",
+        "path": "sail-riscv",
+        "type": "path"
       },
       "original": {
-        "dir": "sail-riscv",
-        "type": "git",
-        "url": "file:./?dir=sail-riscv"
+        "path": "sail-riscv",
+        "type": "path"
       }
     },
     "sbt-overlay-flakes": {
@@ -206,19 +196,14 @@
         "nixpkgs-graalvm17": "nixpkgs-graalvm17"
       },
       "locked": {
-        "dir": "sbt-overlay-flakes",
-        "lastModified": 1726595121,
-        "narHash": "sha256-AbCen2tFH8qhY+r41EGm6uCNdDiXWQS8KLWeLmjokqY=",
-        "ref": "refs/heads/master",
-        "rev": "ae5e98ec77fd3b82a91403bf98547f01286cd757",
-        "revCount": 8,
-        "type": "git",
-        "url": "file:./?dir=sbt-overlay-flakes"
+        "lastModified": 1,
+        "narHash": "sha256-9GrOlet2xitQmg5fQhrAV5Sif6rvLB/YT/0XIC5AQf8=",
+        "path": "sbt-overlay-flakes",
+        "type": "path"
       },
       "original": {
-        "dir": "sbt-overlay-flakes",
-        "type": "git",
-        "url": "file:./?dir=sbt-overlay-flakes"
+        "path": "sbt-overlay-flakes",
+        "type": "path"
       }
     },
     "systems": {
